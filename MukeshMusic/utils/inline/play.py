@@ -134,13 +134,18 @@ def stream_markup(_, videoid, chat_id):
             InlineKeyboardButton(
                 text="▢", callback_data=f"ADMIN Stop|{chat_id}"
             ),
-        ]]
-       # [
-        #    InlineKeyboardButton(
-         #       text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
-         #   )
-     #   ],
-    #]
+
+        ]
+        
+        [
+            InlineKeyboardButton(
+                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
+           ),
+
+        ]   
+             ]
+
+    
     return buttons
 
 
